@@ -1,0 +1,31 @@
+ /* *{
+  background-image: url(../../../src/assets/image/png/emily-quote-png.webp);
+ } */
+ 
+ .greeting {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.not-found {
+  text-align: center;
+  color: red;
+}
+
+.elite-guys-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elite-guy {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+} 
