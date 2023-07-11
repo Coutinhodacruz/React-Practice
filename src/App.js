@@ -4,6 +4,7 @@ import LoginClassComponent from './views/components/auth/login/LoginClassCompone
 import FormComponent from './views/components/auth/Form/FormComponent';
 import Elite from "./views/components/class/Elite";
 import Calculator from './views/components/calculator/Calculator';
+import BubbleShot from './views/components/bubbleshot/BubbleShot';
 
 
 
@@ -13,8 +14,8 @@ function App() {
       {/* <LoginClassComponent /> */}
       {/*<FormComponent />*/}
         {/* <Elite /> */}
-
-        <Calculator />
+        {/* <Calculator /> */}
+        <BubbleShot />
 
     </div>
   );
