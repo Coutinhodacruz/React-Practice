@@ -10,11 +10,11 @@ class LoginClassComponent extends React.Component {
       };
       this.handleChange = this.handleChange.bind(this);
     }
-  
+
     handleChange(e) {
       this.setState({ name: e.target.value });
     }
-  
+
     handleEliteGuyOne() {
       return (
         <div>
@@ -22,7 +22,7 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     handleEliteGuyTwo() {
       return (
         <div>
@@ -30,7 +30,7 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     handleEliteGuyThree() {
       return (
         <div>
@@ -38,7 +38,7 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     handleEliteGuyFour() {
       return (
         <div>
@@ -46,7 +46,7 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     handleEliteGuyFive() {
       return (
         <div>
@@ -54,7 +54,7 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     handleEliteGuySix() {
       return (
         <div>
@@ -62,10 +62,10 @@ class LoginClassComponent extends React.Component {
         </div>
       );
     }
-  
+
     renderGreeting() {
       const { name } = this.state;
-  
+
       if (
         name === "Dacruz" ||
         name === "Luiz" ||
@@ -79,7 +79,7 @@ class LoginClassComponent extends React.Component {
         return <p className="not-found">Name not found</p>;
       }
     }
-  
+
     render() {
       return (
         <div>
@@ -90,6 +90,6 @@ class LoginClassComponent extends React.Component {
       );
     }
   }
-  
+
   export default LoginClassComponent;
   
