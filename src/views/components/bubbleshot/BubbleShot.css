@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4b6cb7, #182848);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bubble-shot-container {
+    text-align: center;
+    color: white;
+  }
+  
+  .score {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .result {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .bubble-area {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .bubble {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+  
+  .gun {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .gun-bubble {
+    position: absolute;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    visibility: hidden;
+  }
+  
+  .gun-trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
