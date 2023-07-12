@@ -5,6 +5,8 @@ import FormComponent from './views/components/auth/Form/FormComponent';
 import Elite from "./views/components/class/Elite";
 import Calculator from './views/components/calculator/Calculator';
 import BubbleShot from './views/components/bubbleshot/BubbleShot';
+import Form from './views/components/function/Form';
+import TicTacToe from './views/components/auth/tictactoe/TicTacToe';
 
 
 
@@ -15,7 +17,9 @@ function App() {
       {/*<FormComponent />*/}
         {/* <Elite /> */}
         {/* <Calculator /> */}
-        <BubbleShot />
+        {/* <BubbleShot /> */}
+        {/* <Form /> */}
+        <TicTacToe />
 
     </div>
   );
