@@ -7,6 +7,7 @@ import Calculator from './views/components/calculator/Calculator';
 import BubbleShot from './views/components/bubbleshot/BubbleShot';
 import Form from './views/components/function/Form';
 import TicTacToe from './views/components/auth/tictactoe/TicTacToe';
+import LoginPage from "./views/components/myForm/LoginPage";
 
 
 
@@ -19,7 +20,8 @@ function App() {
         {/* <Calculator /> */}
         {/* <BubbleShot /> */}
         {/* <Form /> */}
-        <TicTacToe />
+        {/*<TicTacToe />*/}
+        <LoginPage />
 
     </div>
   );
